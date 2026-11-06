@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#34C4E3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dialog_bg">#F22B2B2B</color>
+    <color name="progress_track">#40FFFFFF</color>
+</resources>

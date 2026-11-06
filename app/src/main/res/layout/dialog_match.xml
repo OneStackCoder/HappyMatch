@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="@string/win_title" />
+
+    <TextView
+        android:id="@+id/tv_dialog_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#DDDDDD"
+        android:textSize="16sp"
+        android:text="用时 0 秒" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_dialog_next"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/dialog_next"
+            android:contentDescription="@string/dialog_next"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/btn_dialog_replay"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/dialog_replay"
+            android:contentDescription="@string/dialog_replay"
+            android:scaleType="fitXY" />
+
+        <ImageButton
+            android:id="@+id/btn_dialog_exit"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="18dp"
+            android:background="@drawable/dialog_exit"
+            android:contentDescription="@string/dialog_exit"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.happymatch'
+    compileSdk 30
+
+    defaultConfig {
+        applicationId "com.happymatch"
+        minSdk 21
+        targetSdk 30          // Android 11
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+// 本项目只使用系统框架控件，不依赖 AndroidX / support 库
+dependencies {
+}

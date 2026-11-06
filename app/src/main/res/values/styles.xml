@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/mainbg</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">#FF000000</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+
+</resources>

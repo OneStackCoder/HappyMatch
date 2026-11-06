@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">开心连连看</string>
+    <string name="start_game">开始游戏</string>
+
+    <!-- 顶栏 -->
+    <string name="level_format">第 %1$d 关</string>
+    <string name="time_format">剩余 %1$d 秒</string>
+    <string name="left_time">剩余时间</string>
+
+    <!-- 道具 -->
+    <string name="tool_disrupt">洗牌</string>
+    <string name="tool_tip">提示</string>
+    <string name="tool_count_format">×%1$d</string>
+    <string name="tool_disrupt_used_up">洗牌次数用完了</string>
+    <string name="tool_tip_used_up">提示次数用完了</string>
+    <string name="tool_tip_fail">暂时找不到可消除的组合</string>
+    <string name="auto_shuffle">无可用组合，已自动洗牌</string>
+
+    <!-- 结算 -->
+    <string name="win_title">胜利！</string>
+    <string name="lose_title">时间到！</string>
+    <string name="used_time_format">用时 %1$d 秒</string>
+    <string name="dialog_next">下一关</string>
+    <string name="dialog_replay">再玩一次</string>
+    <string name="dialog_exit">退出游戏</string>
+
+    <!-- 退出确认 -->
+    <string name="exit_confirm_title">提示</string>
+    <string name="exit_confirm_message">确定退出游戏吗？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+</resources>
