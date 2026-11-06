@@ -3,6 +3,9 @@
     <string name="app_name">开心连连看</string>
     <string name="start_game">开始游戏</string>
 
+    <!-- 启动页 -->
+    <string name="welcome_brand">Rabbit 制作</string>
+
     <!-- 顶栏 -->
     <string name="level_format">第 %1$d 关</string>
     <string name="time_format">剩余 %1$d 秒</string>

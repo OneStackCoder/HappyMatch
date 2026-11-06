@@ -7,11 +7,17 @@
     android:clickable="true"
     android:focusable="true">
 
-    <ImageView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/app_name"
-        android:scaleType="fitCenter"
-        android:src="@drawable/welcome" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:maxLines="1"
+        android:text="@string/welcome_brand"
+        android:textColor="#FF7C7C7C"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
 </FrameLayout>
