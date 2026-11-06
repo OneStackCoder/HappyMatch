@@ -12,7 +12,7 @@ import android.view.View;
  */
 public class WelcomeActivity extends Activity {
 
-    private static final long SPLASH_DELAY = 2500L;
+    private static final long SPLASH_DELAY = 1300L;
 
     private final Handler handler = new Handler(Looper.getMainLooper());
     private boolean jumped;
